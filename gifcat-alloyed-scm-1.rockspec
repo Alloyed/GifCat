@@ -1,7 +1,7 @@
-package = "gifcat"
+package = "gifcat-alloyed"
 version = "scm-1"
 source = {
-   url = "git://github.com/WetDesertRock/GifCat.git"
+   url = "git://github.com/alloyed/GifCat.git"
 }
 description = {
    summary = "A simple module for saving gifs from LOVE 0.10.x.",
