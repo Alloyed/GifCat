@@ -28,6 +28,9 @@ local FILE = (...)
 assert(love.arg) -- Are we in the main thread?
 
 local thread_code = string.format([=[
+  pcall(function()
+    require 'rocks' ()
+  end)
   local gif = require(%q)
   require("love.image")
   require("love.filesystem")
